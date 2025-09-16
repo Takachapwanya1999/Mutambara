@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Julia Mutambara - Clinical Psychologist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-16 h-16 flex items-center justify-center">
+                            <img src="images/Dr-logo.png" alt="Dr. Mutambara Logo" class="w-16 h-16 object-contain rounded-full drop-shadow-lg" />
+                        </div>
+                        <div>
+                            <h1 class="text-lg font-semibold text-gray-900">Dr. Julia Mutambara</h1>
+                            <p class="text-xs text-gray-600">Clinical Psychologist</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors">About</a>
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors">Services</a>
+                    <a href="#approach" class="text-gray-600 hover:text-blue-600 transition-colors">Approach</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors">Testimonials</a>
+                    <a href="#faqs" class="text-gray-600 hover:text-blue-600 transition-colors">FAQs</a>
+                    <a href="#blog" class="text-gray-600 hover:text-blue-600 transition-colors">Blog</a>
+                    <a href="#team" class="text-gray-600 hover:text-blue-600 transition-colors">Team</a>
+                    <a href="#events" class="text-gray-600 hover:text-blue-600 transition-colors">Events</a>
+                    <a href="#resources" class="text-gray-600 hover:text-blue-600 transition-colors">Resources</a>
+                    <a href="#newsletter" class="text-gray-600 hover:text-blue-600 transition-colors">Newsletter</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
+                </nav>
+                
+                <div class="flex items-center space-x-4">
+                    <button id="book-appointment-btn" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                        Book Appointment
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                        Compassionate Care for Your Mental Health Journey
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                        Professional psychological services with a focus on evidence-based treatment, 
+                        cultural sensitivity, and personalized care for adults and adolescents.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 mb-8">
+                        <button id="schedule-consultation-btn" class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                            Schedule Consultation
+                        </button>
+                        <button class="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+                            Learn More
+                        </button>
+                    </div>
+                    
+                    <div class="flex items-center space-x-6 text-sm text-gray-600">
+                        <div class="flex items-center space-x-2">
+                            <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                            <span>Licensed Clinical Psychologist</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
+                            <span>15+ Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="bg-white rounded-2xl shadow-xl p-8">
+                        <div class="text-center mb-6">
+                            <div class="w-24 h-24 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
+                                <img src="images/dr-mutambara.png" alt="Dr. Mutambara" class="w-20 h-20 object-cover rounded-full" />
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900">Dr. Julia Mutambara</h3>
+                            <ul class="text-gray-600 text-sm space-y-1 mt-2 text-left inline-block">
+                                <li>PhD - Doctor of Philosophy in Psychology, University of Limpopo</li>
+                                <li>MSc Clinical Psychology (UZ)</li>
+                                <li>BSc (Hons) (UZ)</li>
+                                <li>Post Grad Dip in Tertiary Edu (MSU)</li>
+                                <li>Psychological First Aid (John Hopkins)</li>
+                                <li>Implementation Research for infectious diseases of poverty (WHO & WITS)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="space-y-3 text-sm">
+                            <div class="flex items-center space-x-3">
+                                <span class="w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center">✓</span>
+                                <span class="text-gray-700">Licensed in Multiple States</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <span class="w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center">✓</span>
+                                <span class="text-gray-700">Telehealth Available</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <span class="w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center">✓</span>
+                                <span class="text-gray-700">Insurance Accepted</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Testimonials</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-700 italic mb-4">"Dr. Mutambara helped me find hope and healing during a difficult time. Highly recommended!"</p>
+                    <p class="text-gray-500 text-sm">- Jane Doe</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-700 italic mb-4">"Professional, compassionate, and truly cares about her clients."</p>
+                    <p class="text-gray-500 text-sm">- Innocent Magura</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faqs" class="py-20">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Frequently Asked Questions</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h4 class="font-semibold mb-2">How do I book a session?</h4>
+                    <p class="text-gray-600">Use the contact form or call the office to schedule your appointment.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h4 class="font-semibold mb-2">Do you offer telehealth?</h4>
+                    <p class="text-gray-600">Yes, secure online sessions are available for all clients.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h4 class="font-semibold mb-2">Is my information confidential?</h4>
+                    <p class="text-gray-600">Absolutely. All client information is kept strictly confidential.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog/Articles Section -->
+    <section id="blog" class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Blog & Articles</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h4 class="font-semibold mb-2">5 Tips for Managing Stress</h4>
+                    <p class="text-gray-600">Learn practical strategies to reduce stress and improve your well-being.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h4 class="font-semibold mb-2">The Importance of Mental Health</h4>
+                    <p class="text-gray-600">Why prioritizing your mental health is essential for a fulfilling life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Profiles Section -->
+    <section id="team" class="py-20">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Meet the Team</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow text-center">
+                    <img src="images/dr-mutambara.png" alt="Dr. Mutambara" class="w-24 h-24 mx-auto rounded-full mb-4" />
+                    <h4 class="font-semibold text-gray-900">Dr. Julia Mutambara</h4>
+                    <p class="text-gray-600 text-sm">Clinical Psychologist</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow text-center">
+                    <img src="images/tawanda.png" alt="Team Member" class="w-24 h-24 mx-auto rounded-full mb-4" />
+                    <h4 class="font-semibold text-gray-900">Tawanda Moyo</h4>
+                    <p class="text-gray-600 text-sm">Counselor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events/Workshops Section -->
+    <section id="events" class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Events & Workshops</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h4 class="font-semibold mb-2">Upcoming Workshop: Coping with Trauma</h4>
+                    <p class="text-gray-600">Join us for a free workshop on trauma healing, September 25, 2025.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h4 class="font-semibold mb-2">Mental Health Awareness Seminar</h4>
+                    <p class="text-gray-600">A seminar for students and staff, October 10, 2025.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resource Downloads Section -->
+    <section id="resources" class="py-20">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Resources</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h4 class="font-semibold mb-2">Download: Mental Health Brochure</h4>
+                    <a href="#" class="text-blue-600 underline">Download PDF</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h4 class="font-semibold mb-2">Download: Self-Help Guide</h4>
+                    <a href="#" class="text-blue-600 underline">Download PDF</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup Section -->
+    <section id="newsletter" class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Newsletter Signup</h2>
+            <form class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow space-y-4">
+                <input type="email" placeholder="Your email address" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Accessibility Features Section -->
+    <section id="accessibility" class="py-20">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Accessibility Features</h2>
+            <ul class="space-y-4 text-gray-700 text-lg">
+                <li>• High contrast mode for better visibility</li>
+                <li>• Keyboard navigation support</li>
+                <li>• Alt text for all images</li>
+                <li>• Responsive design for all devices</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Live Chat/WhatsApp Section -->
+    <section id="livechat" class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">Live Chat & WhatsApp</h2>
+            <p class="text-lg text-gray-700 mb-6">Need instant help? Chat with us or send a WhatsApp message.</p>
+            <a href="https://wa.me/263787128274" target="_blank" class="inline-block bg-green-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-600 transition-colors">WhatsApp Chat</a>
+        </div>
+    </section>
+
+    <!-- Google Maps Section -->
+    <section id="map" class="py-20">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">Find Us</h2>
+            <iframe src="https://www.google.com/maps?q=Midlands+State+University+Gweru+Zimbabwe&output=embed" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">About <span class="text-blue-500">Dr. Julia Mutambara</span></h2>
+                <div class="section-divider w-24 mx-auto mb-6"></div>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    With over 15 years of experience in clinical psychology, I am dedicated to providing 
+                    compassionate, evidence-based mental health care tailored to each individual's unique needs.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="bg-white rounded-xl p-8 shadow-sm">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-6">Professional Background</h3>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">Education</h4>
+                                <ul class="space-y-2 text-gray-600">
+                                    <li>• Ph.D. in Clinical Psychology - University of Cape Town</li>
+                                    <li>• M.A. in Psychology - Rhodes University</li>
+                                    <li>• B.A. Honours in Psychology - University of Zimbabwe</li>
+                                </ul>
+                            </div>
+                            
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">Research Interests</h4>
+                                <ul class="space-y-2 text-gray-600">
+                                    <li>• Positive Psychology</li>
+                                    <li>• Developmental psychology</li>
+                                    <li>• Health psychology</li>
+                                    <li>• Trauma healing and coping</li>
+                                    <li>• Women`s mental health</li>
+                                    <li>• Bereavement</li>
+                                    <li>• Implementation Science</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="space-y-6">
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="text-2xl">🎓</span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">Licensed Professional</h4>
+                                <p class="text-gray-600 text-sm">
+                                    Licensed Clinical Psychologist with active licenses in multiple states. 
+                                    Member of the American Psychological Association.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="text-2xl">🌍</span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">Cultural Competency</h4>
+                                <p class="text-gray-600 text-sm">
+                                    Extensive experience working with diverse populations and 
+                                    understanding the impact of culture on mental health.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="text-2xl">💻</span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">Modern Approach</h4>
+                                <p class="text-gray-600 text-sm">
+                                    Combining traditional therapeutic methods with modern technology 
+                                    to provide accessible and effective treatment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Services Offered</h2>
+                <div class="section-divider w-24 mx-auto mb-6"></div>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Comprehensive mental health services designed to support your journey toward wellness and personal growth.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card-hover bg-white rounded-xl p-8 shadow-sm border border-gray-100">
+                    <div class="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <span class="text-3xl">🧠</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Individual Therapy</h3>
+                    <p class="text-gray-600 mb-4">
+                        One-on-one sessions focused on your specific needs, using evidence-based approaches 
+                        like CBT, DBT, and mindfulness-based interventions.
+                    </p>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>• Anxiety and Depression</li>
+                        <li>• Trauma and PTSD</li>
+                        <li>• Life Transitions</li>
+                        <li>• Relationship Issues</li>
+                    </ul>
+                </div>
+                
+                <div class="card-hover bg-white rounded-xl p-8 shadow-sm border border-gray-100">
+                    <div class="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center mb-6">
+                        <span class="text-3xl">👥</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Group Therapy</h3>
+                    <p class="text-gray-600 mb-4">
+                        Therapeutic groups that provide support, shared experiences, and skill-building 
+                        in a safe and structured environment.
+                    </p>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>• Anxiety Support Groups</li>
+                        <li>• Depression Recovery</li>
+                        <li>• Trauma Survivors</li>
+                        <li>• Social Skills Training</li>
+                    </ul>
+                </div>
+                
+                <div class="card-hover bg-white rounded-xl p-8 shadow-sm border border-gray-100">
+                    <div class="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mb-6">
+                        <span class="text-3xl">👨‍👩‍👧‍👦</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Family Therapy</h3>
+                    <p class="text-gray-600 mb-4">
+                        Family-centered approach to address relationship dynamics, communication 
+                        patterns, and systemic issues affecting the family unit.
+                    </p>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>• Family Communication</li>
+                        <li>• Parenting Support</li>
+                        <li>• Adolescent Issues</li>
+                        <li>• Conflict Resolution</li>
+                    </ul>
+                </div>
+                
+                <div class="card-hover bg-white rounded-xl p-8 shadow-sm border border-gray-100">
+                    <div class="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mb-6">
+                        <span class="text-3xl">📋</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Psychological Assessment</h3>
+                    <p class="text-gray-600 mb-4">
+                        Comprehensive evaluations to understand cognitive, emotional, and behavioral 
+                        functioning for diagnostic and treatment planning purposes.
+                    </p>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>• Diagnostic Assessments</li>
+                        <li>• Cognitive Testing</li>
+                        <li>• Personality Assessment</li>
+                        <li>• ADHD Evaluations</li>
+                    </ul>
+                </div>
+                
+                <div class="card-hover bg-white rounded-xl p-8 shadow-sm border border-gray-100">
+                    <div class="w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center mb-6">
+                        <span class="text-3xl">💻</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Telehealth Services</h3>
+                    <p class="text-gray-600 mb-4">
+                        Secure, convenient online therapy sessions that provide the same quality 
+                        of care from the comfort of your own space.
+                    </p>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>• Video Sessions</li>
+                        <li>• Flexible Scheduling</li>
+                        <li>• HIPAA Compliant</li>
+                        <li>• Multi-state Licensed</li>
+                    </ul>
+                </div>
+                
+                <div class="card-hover bg-white rounded-xl p-8 shadow-sm border border-gray-100">
+                    <div class="w-16 h-16 bg-teal-100 rounded-xl flex items-center justify-center mb-6">
+                        <span class="text-3xl">🎯</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Specialized Programs</h3>
+                    <p class="text-gray-600 mb-4">
+                        Targeted interventions for specific populations and conditions, 
+                        incorporating cultural considerations and specialized techniques.
+                    </p>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>• Cultural Adaptation</li>
+                        <li>• Adolescent Programs</li>
+                        <li>• Trauma-Informed Care</li>
+                        <li>• Mindfulness Training</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Approach Section -->
+    <section id="approach" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">My Therapeutic Approach</h2>
+                <div class="section-divider w-24 mx-auto mb-6"></div>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    I believe in a collaborative, culturally-sensitive approach that honors your unique 
+                    experiences while utilizing evidence-based practices for optimal outcomes.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="space-y-8">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="text-white font-bold">1</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Evidence-Based Practice</h3>
+                                <p class="text-gray-600">
+                                    Utilizing scientifically-supported therapeutic methods including Cognitive 
+                                    Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and trauma-informed approaches.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="text-white font-bold">2</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Cultural Sensitivity</h3>
+                                <p class="text-gray-600">
+                                    Understanding and respecting the role of culture, identity, and background 
+                                    in shaping your experiences and incorporating this into treatment planning.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="text-white font-bold">3</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Collaborative Partnership</h3>
+                                <p class="text-gray-600">
+                                    Working together as partners in your healing journey, with you as the expert 
+                                    on your own experience and me providing professional guidance and support.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-sm">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-6">Treatment Modalities</h3>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-blue-50 rounded-lg p-4 text-center">
+                            <div class="text-2xl mb-2">🧠</div>
+                            <div class="font-semibold text-gray-900 text-sm">CBT</div>
+                        </div>
+                        <div class="bg-green-50 rounded-lg p-4 text-center">
+                            <div class="text-2xl mb-2">🎯</div>
+                            <div class="font-semibold text-gray-900 text-sm">DBT</div>
+                        </div>
+                        <div class="bg-purple-50 rounded-lg p-4 text-center">
+                            <div class="text-2xl mb-2">🧘</div>
+                            <div class="font-semibold text-gray-900 text-sm">Mindfulness</div>
+                        </div>
+                        <div class="bg-orange-50 rounded-lg p-4 text-center">
+                            <div class="text-2xl mb-2">💚</div>
+                            <div class="font-semibold text-gray-900 text-sm">Trauma-Informed</div>
+                        </div>
+                        <div class="bg-red-50 rounded-lg p-4 text-center">
+                            <div class="text-2xl mb-2">👥</div>
+                            <div class="font-semibold text-gray-900 text-sm">Family Systems</div>
+                        </div>
+                        <div class="bg-teal-50 rounded-lg p-4 text-center">
+                            <div class="text-2xl mb-2">🌍</div>
+                            <div class="font-semibold text-gray-900 text-sm">Cultural</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 p-4 bg-gray-50 rounded-lg">
+                        <p class="text-sm text-gray-600 italic">
+                            "My approach is tailored to each individual's unique needs, cultural background, 
+                            and personal goals. Together, we'll find the path that works best for you."
+                        </p>
+                        <p class="text-sm font-semibold text-gray-900 mt-2">- Dr. Sarah Mutambara</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Get Started Today</h2>
+                <div class="section-divider w-24 mx-auto mb-6"></div>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Taking the first step toward mental wellness can feel overwhelming. I'm here to support 
+                    you through this journey with compassion, expertise, and respect for your unique story.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-6">Contact Information</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <span class="text-xl">📞</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Phone</h4>
+                                    <p class="text-gray-600">(555) 123-4567</p>
+                                    <p class="text-sm text-gray-500">Available Mon-Fri, 9AM-6PM</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <span class="text-xl">✉️</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Email</h4>
+                                    <p class="text-gray-600">dr.mutambara@example.com</p>
+                                    <p class="text-sm text-gray-500">Response within 24 hours</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <span class="text-xl">📍</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Office Location</h4>
+                                    <p class="text-gray-600">123 Wellness Drive<br>Suite 200<br>City, State 12345</p>
+                                    <p class="text-sm text-gray-500">Telehealth also available</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8 p-4 bg-blue-50 rounded-lg">
+                            <h4 class="font-semibold text-blue-900 mb-2">Insurance & Payment</h4>
+                            <p class="text-sm text-blue-800">
+                                Most major insurance plans accepted. Sliding scale fees available. 
+                                Contact us to verify your coverage and discuss payment options.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-6">Schedule a Consultation</h3>
+                        
+                        <form class="space-y-6">
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">First Name</label>
+                                    <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">Last Name</label>
+                                    <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                                <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Phone</label>
+                                <input type="tel" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Preferred Service</label>
+                                <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                    <option>Individual Therapy</option>
+                                    <option>Family Therapy</option>
+                                    <option>Group Therapy</option>
+                                    <option>Psychological Assessment</option>
+                                    <option>Consultation</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Message (Optional)</label>
+                                <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Tell me a bit about what brings you here..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-blue-600 text-white py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                                Request Consultation
+                            </button>
+                        </form>
+                        
+                        <p class="text-xs text-gray-500 mt-4 text-center">
+                            Your information is confidential and secure. I'll respond within 24 hours to schedule your consultation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-16 h-16 flex items-center justify-center">
+                            <img src="images/Dr-logo.png" alt="Dr. Mutambara Logo" class="w-16 h-16 object-contain rounded-full drop-shadow-lg" />
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold">Dr. Sarah Mutambara</h3>
+                            <p class="text-gray-400 text-sm">Clinical Psychologist</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-4">
+                        Providing compassionate, culturally-sensitive mental health care with 
+                        evidence-based approaches for over 15 years.
+                    </p>
+                    <div class="flex space-x-4">
+                        <div class="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center cursor-pointer hover:bg-gray-700">
+                            <span class="text-sm">📧</span>
+                        </div>
+                        <div class="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center cursor-pointer hover:bg-gray-700">
+                            <span class="text-sm">💼</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Banking Details</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li class="font-bold">ZWG ACCOUNTS</li>
+                        <li>ZB BANK<br>Branch: Gweru<br>Account No: 4575486039200</li>
+                        <li>CBZ BANK<br>Branch: Gweru<br>Account No: 01820772520046</li>
+                        <li>Banc ABC<br>Account No: 28624025502017<br>Gweru Branch</li>
+                        <li>FBC BANK<br>Account name: Midlands State University<br>Account number: 6137535960297<br>Branch code: Gweru<br>Swift code: FBCPZWHA</li>
+                        <li class="font-bold mt-4">USD ACCOUNTS</li>
+                        <li>ECOBANK<br>Account Name: Midlands State University<br>Bank Name: ECOBANK<br>USD Account No.: 5783600005622<br>Branch code: 26000<br>Swift code: ECOCZWHX<br>Branch Name: KWEKWE<br>Bank Address: BEVERLY HOUSE, GROUND FLOOR ROBERT MUGABE WAY<br>Bank Telephone No: +263 55 25393/5</li>
+                        <li>CBZ<br>Account Name: Midlands State University<br>Bank Name: CBZ Bank<br>Account Number: 10720772520202<br>Currency: USD<br>Branch code: 107<br>Swift code: COBZZWHA<br>Bank address: 60 Kwame Nkrumah Ave Harare<br>Bank Telephone No: +263 4 748050-79/ 780880-4</li>
+                        <li>Banc ABC<br>Account Name: Midlands State University<br>Bank Name: Banc ABC<br>Account Number: 28624026633189<br>Currency: USD<br>Branch code: 21510<br>Swift code: FMBZZWHX<br>Bank address: 1 Endeavour Crescent, Mount Pleasant Business Park. Mount Pleasant, P O Box2786, Harare<br>Call Centre Contact Details<br>General lines: 08677 008439; 08677 008666<br>Whatsapp: +263 78 712 8274<br>E-mail address: contactcentrezw@bancabc.co.zw</li>
+                        <li>FBC BANK<br>Account name: Midlands State University<br>Account number: 2237535960660<br>Branch code: Gweru<br>Swift code: FBCPZWHA</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-white">MSU Client Service Charter</a></li>
+                        <li><a href="#" class="hover:text-white">Quality Assurance and Professional Development Directorate</a></li>
+                        <li><a href="#" class="hover:text-white">International Relations</a></li>
+                        <li><a href="#" class="hover:text-white">Marketing and Communications</a></li>
+                        <li><a href="#" class="hover:text-white">MSU Facilities</a></li>
+                        <li><a href="#" class="hover:text-white">MSU National Pathology Research and Diagnostic Centre</a></li>
+                        <li><a href="#" class="hover:text-white">MSU Radio</a></li>
+                        <li><a href="#" class="hover:text-white">Data Protection Office</a></li>
+                        <li><a href="#" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li>Postal Address</li>
+                        <li>P Bag 9055</li>
+                        <li>Gweru</li>
+                        <li>Zimbabwe</li>
+                        <li>Tel: +263 54 2260359</li>
+                        <li>Fax: +263 54 2260233</li>
+                        <li>info@mco.msu.ac.zw</li>
+                    </ul>
+                </div>
+                    <div>
+                        <h4 class="font-semibold mb-4">Faculties</h4>
+                        <ul class="space-y-2 text-sm text-gray-400">
+                            <li>Agriculture, Environment and Natural Resources Management</li>
+                            <li>Arts and Humanities</li>
+                            <li>Built Environment, Art And Design</li>
+                            <li>Business Sciences</li>
+                            <li>Education</li>
+                            <li>Engineering and Geosciences</li>
+                            <li>Law</li>
+                            <li>Medicine and Health Sciences</li>
+                            <li>Science And Technology</li>
+                            <li>Social Sciences</li>
+                        </ul>
+                    </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; 2025 Dr. Sarah Mutambara, Clinical Psychologist. All rights reserved.</p>
+                <p class="mt-2">Licensed Clinical Psychologist | Privacy Policy | Terms of Service</p>
+                <p class="mt-2">
+                    <a href="admin-dashboard.html" class="text-blue-400 hover:text-blue-600 underline">Admin Dashboard</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+<script>
+// Schedule Consultation button scrolls to contact section and focuses form
+document.getElementById('schedule-consultation-btn').addEventListener('click', function() {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Focus the first input in the form after scrolling
+        setTimeout(() => {
+            const firstInput = contactSection.querySelector('form input');
+            if (firstInput) firstInput.focus();
+        }, 700);
+    }
+});
+</script>
+<script>
+// Book Appointment button scrolls to contact section and focuses form
+document.getElementById('book-appointment-btn').addEventListener('click', function() {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Focus the first input in the form after scrolling
+        setTimeout(() => {
+            const firstInput = contactSection.querySelector('form input');
+            if (firstInput) firstInput.focus();
+        }, 700);
+    }
+});
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97c747ae57d50392',t:'MTc1NzQyNzE0MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
